@@ -9,8 +9,8 @@ model = tf.keras.models.load_model("saved_model/Brain_tumour.h5")
 ### load file
 uploaded_file = st.file_uploader("Choose a image file", type="jpg")
 
-map_dict = {0: 'Positive',
-            1: 'Negative'
+map_dict = {0: 'Negative',
+            1: 'Positive'
 }
    
           
